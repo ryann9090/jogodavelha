@@ -35,5 +35,5 @@ border-bottom: 0;
    border-right: 0;
 }
 button:disabled{
-   border-color: black;
+   border-color:rgb(132, 0, 255);
 }
