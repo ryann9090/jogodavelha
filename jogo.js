@@ -12,6 +12,7 @@ for(let i = 0; i < tabuleiro.length; i++){
         button.setAttribute ('id', 'bt' + i + "" + j)
         button.setAttribute('class', 'btJogo' + i)
         button.setAttribute('onclick', "marca(" + i + "," + j + ")")
+        button.style.backgroundColor = "black"
         button.append(document.createTextNode(""))
         document.body.append(button)
     }
